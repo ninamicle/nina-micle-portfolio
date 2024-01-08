@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {},
+    colors: {
+      primary: "#061A23",
+      secondary: "#1F5F5B",
+    },
   },
   plugins: [require("daisyui")],
 };
