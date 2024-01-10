@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Abril_Fatface, Inter, Josefin_Sans } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const abril = Abril_Fatface({ weight: "400", subsets: ["latin"] });
+export const josefin = Josefin_Sans({ subsets: ["latin"], weight: "300" });
 
 export const metadata: Metadata = {
   title: "Nina Micle - Front End Developer",
@@ -16,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={josefin.className}>{children}</body>
     </html>
   );
 }

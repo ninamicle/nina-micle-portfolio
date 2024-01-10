@@ -4,7 +4,7 @@ import { links } from "../lib/data";
 export default function Navigation() {
   return (
     <section>
-      <ul className="menu menu-vertical lg:menu-horizontal bg-primary rounded-box">
+      <ul className="menu menu-vertical lg:menu-horizontal bg-primary rounded-box w-full">
         {links.map((link) => (
           <li key={link.hash}>{link.name}</li>
         ))}

@@ -1,5 +1,10 @@
 import React from "react";
+import SectionHeader from "./SectionHeader";
 
-export default function Home() {
-  return <div>Home</div>;
+export default function HomePage() {
+  return (
+    <section id="home-page">
+      <SectionHeader color="accent" title="Front End Developer" />
+    </section>
+  );
 }

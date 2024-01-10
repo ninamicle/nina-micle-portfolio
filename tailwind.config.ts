@@ -7,10 +7,12 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
-    colors: {
-      primary: "#061A23",
-      secondary: "#1F5F5B",
+    extend: {
+      colors: {
+        primary: "#061A23",
+        secondary: "#1F5F5B",
+        accent: "#05FBEC",
+      },
     },
   },
   plugins: [require("daisyui")],
