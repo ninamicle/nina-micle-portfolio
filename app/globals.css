@@ -23,6 +23,6 @@ body {
   }
 }
 
-.desktop-container {
-  @apply h-[80vh] w-full overflow-auto no-scrollbar bg-slate-200/20  text-white rounded-xl p-8 border border-transparent;
+.bg-container {
+  @apply h-[80vh] w-full overflow-auto no-scrollbar bg-slate-200/20  text-white rounded-xl md:p-8 border border-transparent;
 }

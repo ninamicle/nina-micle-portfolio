@@ -21,7 +21,7 @@ export default function HomePage() {
             className="h-48 w-48 md:w-[40rem] lg:w-[20rem] rounded-full border-[0.35rem] border-secondary object-cover shadow-xl"
           ></Image>
         </div>
-        <div className="flex flex-col justify-center py-3 text-center md:text-left text-white font-medium">
+        <div className="flex flex-col justify-center py-3 text-center md:text-left text-white font-medium p-2">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
             adipisci nulla inventore incidunt?
