@@ -6,7 +6,6 @@ type SectionHeaderProps = {
   color: string;
 };
 export default function SectionHeader({ title, color }: SectionHeaderProps) {
-  console.log(color ? color : "test");
   return (
     <section className={abril.className}>
       <div className={`text-3xl w-full text-center p-4 text-${color}`}>
