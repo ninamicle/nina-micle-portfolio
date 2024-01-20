@@ -44,7 +44,7 @@ main {
 }
 .form-input,
 .form-textarea {
-  @apply active:bg-primary focus:bg-primary focus-within:bg-primary placeholder:text-gray-400 placeholder:p-4;
+  @apply active:bg-primary focus:bg-primary focus-within:bg-primary  placeholder:text-gray-400 placeholder:p-4;
 }
 .form-button {
   @apply h-12 hover:font-semibold flex justify-center items-center gap-3;

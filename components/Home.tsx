@@ -18,7 +18,7 @@ export default function HomePage() {
             height="192"
             quality="95"
             priority={true}
-            className="h-48 w-48 md:w-[40rem] lg:w-[20rem] rounded-full border-[0.35rem] border-secondary object-cover shadow-xl"
+            className="h-48 w-48 md:w-[35rem] lg:w-[28rem] lg:h-[13rem] rounded-full border-[0.35rem] border-secondary object-cover shadow-xl"
           ></Image>
         </div>
         <div className="flex flex-col justify-center py-3 text-center md:text-left text-white font-medium p-2">
@@ -26,14 +26,14 @@ export default function HomePage() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
             adipisci nulla inventore incidunt?
             <span
-              className={`text-accent font-semibold ${abril.className} p-1`}
+              className={`text-accent bg-primary ${abril.className} p-1 text-md`}
             >
               Vel dolores accusantium
             </span>
             Vel dolores accusantium aspernatur blanditiis voluptas cupiditate
-            voluptatum ad, est hic deleniti deserunt,{" "}
+            voluptatum ad, est hic deleniti deserunt,
             <span
-              className={`text-accent font-semibold ${abril.className} p-1`}
+              className={`text-accent bg-primary ${abril.className} p-1 text-md`}
             >
               sunt dolore similique
             </span>
@@ -43,7 +43,7 @@ export default function HomePage() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam culpa
             corrupti, facere veritatis maxime,
             <span
-              className={`text-accent font-semibold ${abril.className} p-1`}
+              className={`text-accent bg-primary ${abril.className} p-1 text-md`}
             >
               omnis explicabo
             </span>
