@@ -12,11 +12,11 @@ export default function Navigation() {
           </li>
         ))}
       </ul>
-      <div className="italic flex gap-1">
+      {/* <div className="italic flex gap-1">
         <span className="cursor-pointer">IT</span>
         <span>/</span>
         <span className="cursor-pointer">EN</span>
-      </div>
+      </div> */}
     </section>
   );
 }

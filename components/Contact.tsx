@@ -7,12 +7,10 @@ import { FaPaperPlane } from "react-icons/fa";
 export default function Contact() {
   const [touchedInput, setTouchedInput] = useState<boolean>();
   const [touchedTextarea, setTouchedTextarea] = useState<boolean>();
-
-  console.log(touchedInput);
   return (
     <section id="contact">
       <SectionHeader color="accent" title="Contattami" />
-      <div className="flex gap-3 justify-center">
+      <div className="flex flex-wrap gap-3 justify-center">
         Scrivi una mail a
         <a href="mailto:nina.micleusanu93@gmail.com" className="underline">
           nina.micleusanu93@gmail.com
@@ -25,6 +23,14 @@ export default function Contact() {
           method="POST"
           className="flex flex-col items-center gap-3 w-full"
         >
+          <input
+            className={clsx("form-input", { "bg-primary": touchedInput })}
+            type="text"
+            name="name"
+            placeholder="Inserisci il tuo nome"
+            required
+            onChange={() => setTouchedInput(true)}
+          />
           <input
             className={clsx("form-input", { "bg-primary": touchedInput })}
             type="email"
