@@ -6,6 +6,7 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  plugins: [require("daisyui")],
   theme: {
     extend: {
       colors: {
@@ -15,6 +16,5 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("daisyui")],
 };
 export default config;
