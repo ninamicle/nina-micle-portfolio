@@ -35,7 +35,7 @@ main {
 }
 
 .bg-container {
-  @apply min-h-[80vh] w-full overflow-auto no-scrollbar bg-slate-400/15  text-white rounded-xl md:p-8 border border-transparent;
+  @apply min-h-[80vh] w-full overflow-auto no-scrollbar bg-slate-400/15 backdrop-blur-sm  text-white rounded-xl md:p-8 border border-transparent;
 }
 .logo {
   @apply w-10 h-10 md:w-20 md:h-20;

@@ -2,6 +2,7 @@
 import Contact from "@/components/Contact";
 import HomePage from "@/components/Home";
 import Portfolio from "@/components/Portfolio";
+import Project from "@/components/Project";
 import Timeline from "@/components/Timeline";
 export default function Home() {
   return (
