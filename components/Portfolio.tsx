@@ -10,6 +10,10 @@ export default function Portfolio() {
   const [showProjectDetail, setShowProjectDetail] = useState<boolean>();
   const dialogRef = useRef<HTMLDialogElement>();
 
+  const handleOpenDialog = (project: any) => {
+    setSelectedProject(project);
+    dialogRef.current && dialogRef.current.showModal();
+  };
   return (
     <section id="portfolio">
       <SectionHeader color="accent" title="Portfolio" />
@@ -35,11 +39,7 @@ export default function Portfolio() {
                   </div>
                 ))}
               </div>
-              <button
-                onClick={() =>
-                  dialogRef.current && dialogRef.current.showModal()
-                }
-              >
+              <button onClick={() => handleOpenDialog(project)}>
                 <span className="underline underline-offset-2 hover:underline-offset-4 hover:opacity-75 text-accent opacity-35 font-extralight">
                   Vedi di più
                 </span>
